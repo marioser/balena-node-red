@@ -3,13 +3,6 @@ type: sw.block
 description: >-
   Build a Node-RED application with balena-supervisor flow support that can be
   managed remotely via balena public URL.
-
-volumes:
-  node-red-data:
-  grafana-data:
-  influxdb-data:
-  influxdb-etc:
-  
 assets:
   repository:
     type: blob.asset
