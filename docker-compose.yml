@@ -32,7 +32,7 @@ services:
   # Influxdb
   # ------------------------------------------------------------------------------------
   influxdb:
-    image: influxdb:2
+    image: influxdb:1.8.10
     container_name: influxdb
     restart: unless-stopped
     ports:
